@@ -1,0 +1,48 @@
+File: ViewOrders.jsx
+#================================================#
+1] NativeSelect -> Why not Normal Select ?
+2] Paper corners rounded:  same as select in view Orders (everywhere)
+
+CustomerDetails
+#================================================#
+1] Customer Details Component (Design and Implementation)
+2] Add Customer Address
+
+AddNewDialog
+#================================================#
+//Done -> Fields name should be changed when we are adding new Products.
+
+SmallBox view Dialog or Product view Dialog
+#================================================#
+1] If there are no small boxes to show, give a messege to used that no small box added.
+//Done -> 2] Change the background color of the Add button. 
+
+NewOrder
+#================================================#
+//Done -> 1] Add delete option for each card
+2]  Delete button should be on the top left corner
+
+BigBoxes
+#================================================#
+1] Proper alert with ok and cancel button while deleting the boxes.
+Done for big boxes, same has to be done with small boxes and products.
+
+Backend changes
+#================================================#
+View order -> 1] Modify the date completion section 
+
+______________________________________________________________
+
+CHANGES
+
+3) Add Product Details fields reordering. (Hidden first then automatically displayed)
+4) Parts - Update missing fields
+5) UI Improvement
+
+DONE
+
+1) Use AutoComplete instead of normal dropdown for customer select.
+2) Automatic Dialog Box Opening for SB and BB when inner products are scanned
+3) Flawed Barcode Logic (Correct Barcodes, Correct Scanning, Polybags)
+4) Scanning Issue when refreshed for BB and SB
+5) Track Order By Big Box Barcode
